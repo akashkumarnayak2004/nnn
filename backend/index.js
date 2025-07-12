@@ -13,7 +13,7 @@ import cookieParser from 'cookie-parser';
 const app =express();
 dotenv.config();
 const corsOptions = {
-  origin: process.env.FRONTEND_URL, // Replace with your frontend URL
+  origin: "https://courseapp-frontend-ewmc.onrender.com", // Replace with your frontend URL
   optionsSuccessStatus: 200,       // For legacy browser support
   credentials: true,               // Allow cookies to be sent
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
